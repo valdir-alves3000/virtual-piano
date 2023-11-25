@@ -22,7 +22,7 @@ const playTune = (key) => {
     audio.play();
   });
 
-  addAndRemoveClassWithDelay();
+  addAndRemoveClassWithDelay(key);
 };
 
 const handleVolume = (e) => {
